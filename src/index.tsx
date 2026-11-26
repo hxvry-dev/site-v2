@@ -4,6 +4,8 @@ import { BrowserRouter, Route, Routes } from "react-router";
 import { Home } from "./components/Home";
 import { RootLayout } from "./components/RootLayout";
 
+import "./App.css";
+
 const container = document.getElementById("app");
 
 if (container) {

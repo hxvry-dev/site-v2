@@ -1,2 +1,15 @@
 @import "tailwindcss";
-@plugin 'daisyui';
+
+/* Begin Fonts */
+@import "@fontsource/source-sans-pro";
+@import "@fontsource-variable/source-code-pro";
+@import "@fontsource-variable/geist";
+@import "@fontsource-variable/geist-mono";
+/* End Fonts */
+
+@plugin "daisyui";
+
+@theme {
+	--font-mono: "Source Code Pro Variable", monospace;
+	--font-sans: "Source Sans Pro", sans-serif;
+}
