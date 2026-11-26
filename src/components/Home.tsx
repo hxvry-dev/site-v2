@@ -1,3 +1,17 @@
+import { Footer } from "./Footer";
+
 export const Home = () => {
-	return <p>Hello World!</p>;
+	return (
+		<div>
+			<div className="hero bg-base-200 min-h-screen">
+				<div className="hero-content text-center">
+					<div className="max-w-md">
+						<h1 className="text-5xl font-bold">Hi there!</h1>
+						<p className="py-6">My name is Henry!</p>
+					</div>
+				</div>
+			</div>
+			<Footer />
+		</div>
+	);
 };

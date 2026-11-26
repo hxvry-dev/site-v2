@@ -3,7 +3,8 @@
 ## Basic Info
 
 - Uses [Tailwind v4](https://tailwindcss.com/) for theming.
-- Themed using [DaisyUI](https://daisyui.com/docs/install/)
+- Components from [DaisyUI](https://daisyui.com/docs/install/)
+- Uses [Fontsource](https://fontsource.org/) fonts
 
 ### Built With:
 
@@ -18,5 +19,3 @@
 - Install Dependencies
   - Run `pnpm i` from the project root once cloned.
 - Run `pnpm start`, and Parcel will build and serve the app automatically.
-
-Run the project with once you've installed dependencies ().
