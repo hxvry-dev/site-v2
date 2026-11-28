@@ -5,6 +5,7 @@
 @import "@fontsource-variable/source-code-pro";
 @import "@fontsource-variable/geist";
 @import "@fontsource-variable/geist-mono";
+@import '@fontsource-variable/doto';
 /* End Fonts */
 
 @plugin "daisyui";
@@ -12,4 +13,5 @@
 @theme {
 	--font-mono: "Source Code Pro Variable", monospace;
 	--font-sans: "Source Sans Pro", sans-serif;
+	--font-logo: "Doto Variable", sans-serif;
 }
