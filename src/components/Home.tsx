@@ -1,5 +1,3 @@
-import { Footer } from "./Footer";
-
 export const Home = () => {
 	return (
 		<div>
@@ -11,7 +9,6 @@ export const Home = () => {
 					</div>
 				</div>
 			</div>
-			<Footer />
 		</div>
 	);
 };
